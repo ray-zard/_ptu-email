@@ -1,0 +1,49 @@
+// Color Styles
+$light-green: #399736;
+$medium-green: #017E39;
+$dark-green: #185531;
+$medium-gray: #A7A7A7;
+
+.light-green {
+  background-color: $light-green;
+}
+.medium-green {
+  background-color: $medium-green;
+}
+.dark-green {
+  background-color: $dark-green;
+}
+.medium-gray {
+  background-color: $medium-gray;
+}
+
+// Body Styles
+body,
+html,
+.body {
+  background: $white !important;
+}
+
+.expander {
+  background-color: none;
+  color: none;
+}
+
+.wrapper.review, .columns.review {
+  background-color: #f8f8f8;
+}
+
+.text-contacts {
+  color: $white;
+}
+.contact-content {
+  color: #6F7479;
+  padding: 4px;
+  background-color: $white;
+}
+.copyright {
+  background-color: #6F7479;
+}
+.copyright-content {
+  color: $white;
+}
