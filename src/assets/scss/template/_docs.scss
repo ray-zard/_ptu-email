@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+  &.down-head {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+table.button table td {
+  background-color: $light-green;
+  border: 0;
+  &:hover {
+    background-color: $medium-green;
+  }
+}
